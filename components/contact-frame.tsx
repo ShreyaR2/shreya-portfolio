@@ -26,7 +26,9 @@ export default function ContactFrame() {
   }
 
   return (
-    <section className="relative min-h-screen w-full bg-black px-6 md:px-12 py-24 flex items-center justify-center">
+    <section 
+    id="contact"
+    className="relative min-h-screen w-full bg-black px-6 md:px-12 py-24 flex items-center justify-center">
       {/* Animated frame border */}
       <motion.div
         className="absolute inset-0 pointer-events-none"
