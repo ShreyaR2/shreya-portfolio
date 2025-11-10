@@ -9,7 +9,7 @@ const poppins = Poppins({ weight: ["700", "800"], subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "Shreya Rajeev | Creative Developer",
-  description: "Building thoughtful digital experiences through AI, HCI, and creative technology.",
+  description: "Third-year CS student at VJTI with a unique blend of technical skills and initiative.",
   generator: "v0.app",
   icons: {
     icon: [

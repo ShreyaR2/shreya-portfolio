@@ -43,7 +43,9 @@ export default function SkillsFrame() {
   const [activeNode, setActiveNode] = useState<string | null>(null)
 
   return (
-    <section className="relative min-h-screen w-full bg-black px-6 md:px-12 py-24 flex items-center justify-center overflow-hidden">
+    <section
+    id="skills" 
+    className="relative min-h-screen w-full bg-black px-6 md:px-12 py-24 flex items-center justify-center overflow-hidden">
       <motion.div
         className="relative z-10 w-full max-w-6xl"
         initial={{ opacity: 0 }}

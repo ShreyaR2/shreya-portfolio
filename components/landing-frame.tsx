@@ -37,7 +37,7 @@ export default function LandingFrame() {
           transition={{ duration: 0.8, delay: 0.4 }}
         >
           <TypingEffect
-            texts={["Hi, I'm Shreya Rajeev.", "Building cool things where tech meets creativity."]}
+            texts={["Hi, I'm Shreya Rajeev.", "Building cool things.","Building creatively."]}
             speed={50}
             delay={3000}
             className="text-accent"

@@ -6,7 +6,9 @@ import Link from "next/link"
 
 export default function AboutFrame() {
   return (
-    <section className="relative min-h-screen w-full flex items-center justify-center bg-black px-6 md:px-12 py-24">
+    <section 
+    id="about"
+    className="relative min-h-screen w-full flex items-center justify-center bg-black px-6 md:px-12 py-24">
       {/* Animated frame border */}
       <motion.div
         className="absolute inset-0 pointer-events-none"
